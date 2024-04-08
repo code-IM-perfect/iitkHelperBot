@@ -26,10 +26,10 @@ To power your instance of this bot you need to get your bot's API Key from [botf
 
 Next just run the `main.py` file and your bot will become the **iitkHelperBot** (until you stop the program).
 
+## Pre-hosted
+I tried hosting it with pythonanywhere but apparently I need a premium account for keeping it online for more than 2 days so you'll probably need to run it locally while testing. Here's the bot's link anyways- https://t.me/codeCraftHelperBot
 
 ## Known Issues
-- I tried hosting it with pythonanywhere but apparently I need a premium account for keeping it online for more than 2 days so you'll need to run it locally while testing.
-
 - For some reason hosting with pythonanywhere can break the Custom DP checking functionality (`requests.get()` fails for some reason). To mitigate this it sends the dp URL even if Custom DP is not found.
 
 - I realised I could have used webhooks on some webites that give the service for free but it was too late (totally not because it was harder™).
