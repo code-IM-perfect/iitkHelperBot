@@ -1,4 +1,5 @@
 /__pycache__
-/bot_token.py
+# /bot_token.py
 /ideas.txt
 /testing
+/.vscode
