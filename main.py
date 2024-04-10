@@ -112,7 +112,7 @@ def get_quote(message):
 ###############################  KHOL  ###############################
 @bot.message_handler(commands=['khol'])
 def khol_de(message):
-    response="Mera naam @codeCraftHelperBot hai. Mere baap ka naam @imNO_Jedi hai. Mai yaha pyTelegramBotAPI se aya hun. pclub dwara ayojit codeCraft ko utten kar maine yaha Telegram me pravesh kia hai. Meri mukhya abhiruchiya logo ki madad karna hai."
+    response="Mera naam @codeCraftHelperBot hai. Mere baap ka naam @imNO_Jedi hai. Mai yaha pyTelegramBotAPI se aya hun. pclub dwara ayojit codeCraft ko utteern kar maine yaha Telegram me pravesh kia hai. Meri mukhya abhiruchiyan logo ki madad karna hai."
     bot.send_message(message.chat.id, response)
 
 @bot.message_handler(commands=['dice'])
